@@ -2,7 +2,7 @@ module.exports = {
     students: [
         {
             id: 33456,
-            name: "Devin Booker",
+            name: "Devin",
             course: "GHJ01"
         }
     ],
