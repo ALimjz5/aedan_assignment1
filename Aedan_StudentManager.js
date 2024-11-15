@@ -48,7 +48,7 @@ module.exports = {
         return nameSearch;
     },
     getStudentById(id) {
-        let index = this.students.findIndex(stud => stud.id == id);
+        let index = this.students.findIndex(stud => stud.id === id);
         if (index !== -1) { 
             return this.students.at({ id: id });
         } else {

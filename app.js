@@ -12,3 +12,5 @@ console.log(student.getStudentList());
 student.registerStudent(55555, "Jim", "DMV07");
 console.log(student.getStudentByName("Kevin"));
 console.log(student.getStudentsByCourse("DMV07"));
+student.removeStudent(12345);
+console.log(student.getStudentList());
